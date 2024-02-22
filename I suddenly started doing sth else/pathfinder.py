@@ -194,9 +194,7 @@ class AppTrie:
                 distance_path = distance_string(query, child_node.path)
                 distance_current = distance_string(query, child_word)
                 distance = a * distance_path + b * distance_current
-
                 distance = distance_string(query, child_node.path)
-                distance = distance / (step + 1)
 
                 # print stat
                 # print("Searching in path:", child_node.path, "with distance:", distance, "and step:", step + 1)
