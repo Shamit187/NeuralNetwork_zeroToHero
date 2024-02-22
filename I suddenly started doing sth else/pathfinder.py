@@ -209,6 +209,8 @@ class AppTrie:
                 heapq.heappush(h, (distance, step + 1, child_node))
 
         return results
+    
+__all__ = ["AppTrie"]
 
 # if main, run the test
 if __name__ == "__main__":
