@@ -187,8 +187,8 @@ class AppTrie:
 
         while len(h) > 0:
             current_cost, step, current_node = heapq.heappop(h)
-            a = 0.8
-            b = 0.2
+            a = 0.2
+            b = 0.8
 
             for child_word, child_node in current_node.children.items():
                 distance_path = distance_string(query, child_node.path)
