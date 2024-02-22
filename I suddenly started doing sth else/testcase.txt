@@ -1,8 +1,8 @@
 open_phone > keypad > click_menu > speed_dial_numbers > click_drop_down > select_number > enter_name_or_number
 open_phone > keypad > click_menu > speed_dial_numbers > click_drop_down > select_number > click_contact > select_contact 
 open_phone > keypad > click_menu > speed_dial_numbers > remove_speed_dial_number
-open_phone > keypad > click_menu > settings > block_numbers > menu > unblock_all_numbers
 open_phone > keypad > click_menu > settings > block_numbers > toggle_block_calls_from_unknown_numbers
+open_phone > keypad > click_menu > settings > block_numbers > menu > unblock_all_numbers
 open_phone > keypad > click_menu > settings > block_numbers > input_add_phone_number > click_add
 open_phone > keypad > click_menu > settings > block_numbers > recent_calls > click_numbers > done
 open_phone > keypad > click_menu > settings > block_numbers > messages > click_messages 
@@ -54,7 +54,7 @@ open_phone > keypad > click_menu > settings > supplementary_services > call_forw
 open_phone > keypad > click_menu > settings > supplementary_services > toggle_call_waiting
 open_phone > keypad > click_menu > settings > other_call_settings > toggle_hide_contacts_without_numbers
 open_phone > keypad > click_menu > settings > other_call_settings > toggle_show_caller_information
-open_phone > keypad > click_menu > settings > other_call_settings > toggle_show_contacts'_number_in_calss
+open_phone > keypad > click_menu > settings > other_call_settings > toggle_show_contacts'_number_in_calls
 open_phone > keypad > click_menu > settings > other_call_settings > toggle_swipe_to_call_or_text
 open_phone > keypad > click_menu > settings > other_call_settings > toggle_roaming_assistance
 open_phone > keypad > click_menu > settings > permissions
@@ -64,5 +64,123 @@ open_phone > keypad > search > input_search
 open_phone > keypad > search > menu > search_settings > toggle_show_recent_searches
 open_phone > keypad > type_number > click_call
 open_phone > keypad > click_call_to_show_last_dialed > click_call
-open_phone > recents >
-open_phone > contacts > 
+open_phone > recents > filter > select_all_calls
+open_phone > recents > filter > select_missed_calls
+open_phone > recents > filter > select_rejected_calls
+open_phone > recents > filter > select_outgoing_calls
+open_phone > recents > filter > select_incoming_calls
+open_phone > recents > select_contact > click_call
+open_phone > recents > select_contact > click_message
+open_phone > recents > select_contact > google_meet
+open_phone > recents > select_contact > info
+open_phone > contacts > add_contact > select_save_contact_to_account > input_contact_name > input_contact_number > input_email > input_groups > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_contact_name > input_contact_number > input_email > input_groups > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_contact_name > input_contact_number > input_groups > input_email > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_contact_name > input_email > input_contact_number > input_groups > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_contact_name > input_email > input_groups > input_contact_number > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_contact_name > input_groups > input_contact_number > input_email > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_contact_name > input_groups > input_email > input_contact_number > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_contact_number > input_contact_name > input_email > input_groups > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_contact_number > input_contact_name > input_groups > input_email > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_contact_number > input_email > input_contact_name > input_groups > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_contact_number > input_email > input_groups > input_contact_name > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_contact_number > input_groups > input_contact_name > input_email > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_contact_number > input_groups > input_email > input_contact_name > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_email > input_contact_name > input_contact_number > input_groups > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_email > input_contact_name > input_groups > input_contact_number > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_email > input_contact_number > input_contact_name > input_groups > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_email > input_contact_number > input_groups > input_contact_name > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_email > input_groups > input_contact_name > input_contact_number > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_email > input_groups > input_contact_number > input_contact_name > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_groups > input_contact_name > input_contact_number > input_email > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_groups > input_contact_name > input_email > input_contact_number > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_groups > input_contact_number > input_contact_name > input_email > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_groups > input_contact_number > input_email > input_contact_name > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_groups > input_email > input_contact_name > input_contact_number > click_save
+open_phone > contacts > add_contact > select_save_contact_to_account > input_groups > input_email > input_contact_number > input_contact_name > click_save
+open_phone > contacts > open_menu > edit > select_contacts > messages  
+open_phone > contacts > open_menu > edit > select_contacts > meet 
+open_phone > contacts > open_menu > edit > select_contacts > share 
+open_phone > contacts > open_menu > edit > select_contacts > delete 
+open_phone > contacts > open_menu > manage_contacts > merge_contacts
+open_phone > contacts > open_menu > manage_contacts > import_contacts
+open_phone > contacts > open_menu > manage_contacts > export_contacts
+open_phone > contacts > open_menu > manage_contacts > move_contacts
+open_phone > contacts > open_menu > manage_contacts > sync_contacts
+open_phone > contacts > open_menu > recycle_bin > edit > select_contacts > restore_all
+open_phone > contacts > open_menu > recycle_bin > edit > select_contacts > delete_all
+open_phone > contacts > open_menu > recycle_bin > open_menu > empty_recycle_bin
+open_phone > contacts > open_menu > recycle_bin > open_menu > search
+open_phone > contacts > open_menu > recycle_bin > open_menu > sort > select_name > done
+open_phone > contacts > open_menu > recycle_bin > open_menu > sort > select_date_deleted > done
+open_phone > contacts > open_menu > recycle_bin > select_contact > restore
+open_phone > contacts > open_menu > recycle_bin > select_contact > delete
+open_phone > contacts > open_menu > contacts_settings > profile_picture_sharing > toggle_profile_picture_sharing
+open_phone > contacts > open_menu > contacts_settings > toggle_recycle_bin
+open_phone > contacts > open_menu > contacts_settings > sort_contacts_by > select_first_name
+open_phone > contacts > open_menu > contacts_settings > sort_contacts_by > select_last_name
+open_phone > contacts > open_menu > contacts_settings > name_format > select_first_name_first
+open_phone > contacts > open_menu > contacts_settings > name_format > select_last_name_first
+open_phone > contacts > open_menu > contacts_settings > toggle_show_frequently_contacted
+open_phone > contacts > open_menu > contacts_settings > toggle_show_3rd_party_options
+open_phone > contacts > open_menu > contacts_settings > about_contacts
+open_phone > contacts > open_menu > contacts_settings > contact_us
+open_phone > contacts > open_menu > settings > block_numbers > toggle_block_calls_from_unknown_numbers
+open_phone > contacts > open_menu > settings > block_numbers > menu > unblock_all_numbers
+open_phone > contacts > open_menu > settings > block_numbers > input_add_phone_number > click_add
+open_phone > contacts > open_menu > settings > block_numbers > recent_calls > click_numbers > done
+open_phone > contacts > open_menu > settings > block_numbers > messages > click_messages 
+open_phone > contacts > open_menu > settings > block_numbers > contacts > click_contacts > done
+open_phone > contacts > open_menu > settings > block_numbers > contacts > groups > click_group > click_contacts > done
+open_phone > contacts > open_menu > settings > record_calls > toggle_show_notification_after_recording
+open_phone > contacts > open_menu > settings > record_calls > toggle_auto_record_calls
+open_phone > contacts > open_menu > settings > record_calls > recorded_calls > select_file
+open_phone > contacts > open_menu > settings > record_calls > delete_old_recordings
+open_phone > contacts > open_menu > settings > call_background > layout > select_layout
+open_phone > contacts > open_menu > settings > call_background > background > dark_mode > match_phone_settings
+open_phone > contacts > open_menu > settings > call_background > background > dark_mode > on
+open_phone > contacts > open_menu > settings > call_background > background > dark_mode > off
+open_phone > contacts > open_menu > settings > call_background > background > add > select_from_gallery
+open_phone > contacts > open_menu > settings > call_background > background > add > create_using_ar_emoji
+open_phone > contacts > open_menu > settings > call_background > background > select_image
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > toggle_vibrate_when_answered
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > toggle_when_call_ends
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > toggle_play_tone_when_call_connects
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > toggle_play_tone_when_call_ends
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > toggle_allow_alarm_/_notification_sounds_in_calls
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > ringtone > select_ringtone
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > ringtone > slider_ringtone_volume
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > ringtone > add > tracks > select_track
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > ringtone > add > albums > select_album > select_track > done
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > ringtone > add > artists > select_artist > select_track > done
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > ringtone > add > folders > select_folder > select_track > done
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > ringtone > add > search > input_search > select_track > done
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > call_vibration > select_vibration_pattern
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > toggle_play_sound_for_keypad_taps
+open_phone > contacts > open_menu > settings > call_alerts_and_ringtone > toggle_vibrate_for_keypad_taps 
+open_phone > contacts > open_menu > settings > answering_and_ending_calls > toggle_read_callers_names_aloud
+open_phone > contacts > open_menu > settings > answering_and_ending_calls > toggle_answer_automatically
+open_phone > contacts > open_menu > settings > answering_and_ending_calls > toggle_press_volume_up_to_answer
+open_phone > contacts > open_menu > settings > answering_and_ending_calls > toggle_press_side_key_to_end_call
+open_phone > contacts > open_menu > settings > quick_decline_messages > input_write_new_message > click_add
+open_phone > contacts > open_menu > settings > quick_decline_messages > remove_quick_decline_message
+open_phone > contacts > open_menu > settings > call_display_while_using_apps > click_full_screen
+open_phone > contacts > open_menu > settings > call_display_while_using_apps > click_small_pop_up
+open_phone > contacts > open_menu > settings > call_display_while_using_apps > click_mini_pop_up
+open_phone > contacts > open_menu > settings > call_display_while_using_apps > toggle_calls_in_pop_ups
+open_phone > contacts > open_menu > settings > voicemail > service_provider > select_service_provider
+open_phone > contacts > open_menu > settings > voicemail > voice_number > input_voice_number > click_save
+open_phone > contacts > open_menu > settings > voicemail > notification > sound > select_sound
+open_phone > contacts > open_menu > settings > voicemail > notification > toggle_vibrate
+open_phone > contacts > open_menu > settings > voicemail > notification > toggle_app_icon_badges
+open_phone > contacts > open_menu > settings > supplementary_services > show_your_caller_id 
+open_phone > contacts > open_menu > settings > supplementary_services > call_forwarding
+open_phone > contacts > open_menu > settings > supplementary_services > toggle_call_waiting
+open_phone > contacts > open_menu > settings > other_call_settings > toggle_hide_contacts_without_numbers
+open_phone > contacts > open_menu > settings > other_call_settings > toggle_show_caller_information
+open_phone > contacts > open_menu > settings > other_call_settings > toggle_show_contacts'_number_in_calls
+open_phone > contacts > open_menu > settings > other_call_settings > toggle_swipe_to_call_or_text
+open_phone > contacts > open_menu > settings > other_call_settings > toggle_roaming_assistance
+open_phone > contacts > open_menu > settings > permissions
+open_phone > contacts > open_menu > settings > about_phone
+open_phone > contacts > open_menu > settings > contact_us
